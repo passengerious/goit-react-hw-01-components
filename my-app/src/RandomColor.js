@@ -1,4 +1,4 @@
-function GetRandomColor() {
+function getRandomColor() {
     let color =
       'rgb(' +
       Math.round(Math.random() * 256) +
@@ -11,4 +11,4 @@ function GetRandomColor() {
     return color;
   }
   
-  export default GetRandomColor;
+  export default getRandomColor;
